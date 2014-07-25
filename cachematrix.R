@@ -1,7 +1,13 @@
 ## Put comments here that give an overall description of what your
-## functions do
+## functions do : set the value of the matrix,get the value of the matrix
+## set the value of the inverse, get the value of the inverse, 
+## then used the array without modifying it, find 
+## the inverse of the original matrix
+
 
 ## Write a short comment describing this function
+## set the value of the matrix,get the value of the matrix
+## set the value of the inverse, get the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
       inv <- NULL
@@ -20,6 +26,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## used the array without modifying it, find 
+## the inverse of the original matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
